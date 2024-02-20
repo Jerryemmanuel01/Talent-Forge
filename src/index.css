@@ -1,0 +1,19 @@
+:root{
+  --bg-color: #0563b8;
+}
+
+.nav--sec{
+  background-color: var(--bg-color) !important;
+  color: #fff !important;
+}
+.nav--links{
+  color:#fff !important;
+}
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: #fff;
+    border: #fff;
+    box-shadow: #fff;
+}
