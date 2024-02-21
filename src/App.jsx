@@ -1,4 +1,5 @@
 import NavBar from './components/NavBar'
+import About from './home/About'
 import Home from './home/Home'
 import Intro from './home/Intro'
 
@@ -8,6 +9,7 @@ function App() {
       <NavBar/>
       <Home />
       <Intro />
+      <About />
     </>
   )
 }
