@@ -2,6 +2,7 @@
 
 :root{
   --bg-color: #0563b8;
+  --bg-gray: #f8f8f8;
 }
 *{
   font-family: "Inter";
@@ -25,7 +26,7 @@
 /* home section */
 
 .home--sec{
-  background: #f8f8f8;
+  background: var(--bg-gray);
   width: 100%;
   min-height: 90vh;
 }
@@ -52,4 +53,18 @@
 .intro-icon-div{
   height: 5rem;
   font-size: 50px;
+}
+
+/* about-section */
+
+.about-sec{
+  margin: 5rem 0;
+  padding: 3rem 0;
+  background: var(--bg-gray);
+}
+.head-txt{
+  /* font-size: 40px; */
+}
+.about--img{
+  width: 100%;
 }
