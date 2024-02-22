@@ -104,7 +104,16 @@
   color: #3f3c3a;
 }
 
-
+/* Model section */
+.sponsor-thumb{
+  height: 100px;
+  width: 100px;
+  border-radius: 999px !important;
+}
+.sponsor-icon{
+  color: #fff;
+  font-size: 70px;
+}
 
 
 /* customer section */
