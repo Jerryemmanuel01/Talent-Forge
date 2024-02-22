@@ -11,14 +11,14 @@ const About = () => {
 
         {/* About body */}
 
-        <div className="row justify-content-center mt-5 gap-5">
+        <div className="row justify-content-center align-items-center mt-5 gap-5">
           {/* about image */}
           <div className="col-lg-5 col-12">
             <img src={AboutImg} alt="" className="about--img card" />
           </div>
 
           {/* about text */}
-          <div className="col-lg-6 col-12 fs-4">
+          <div className="col-lg-6 col-12 fs-3 about--txt">
             We optimize organizational success by seamlessly aligning diverse
             talents with opportunities, utilizing a collaborative and
             client-centric approach, transforming potential into unparalleled

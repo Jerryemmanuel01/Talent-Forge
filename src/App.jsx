@@ -1,7 +1,9 @@
 import NavBar from './components/NavBar'
 import About from './home/About'
+import Customer from './home/Customer'
 import Home from './home/Home'
 import Intro from './home/Intro'
+import Model from './home/Model'
 import Services from './home/Services'
 
 function App() {
@@ -12,6 +14,8 @@ function App() {
       <Intro />
       <About />
       <Services />
+      <Model />
+      <Customer />
     </>
   )
 }

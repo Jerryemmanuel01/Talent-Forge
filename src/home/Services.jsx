@@ -5,7 +5,7 @@ import { LuBarChart4 } from "react-icons/lu";
 
 const Services = () => {
   return (
-    <div className="services--sec bg-primary">
+    <div className="services--sec">
       <div className="container">
         {/* services head */}
         <div className="head--sec d-flex justify-content-center shadow-sm">

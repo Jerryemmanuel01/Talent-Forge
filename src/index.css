@@ -22,6 +22,17 @@
 .nav--links{
   color:#fff !important;
 }
+.header-fixed {
+        position: fixed;
+        /* @extend %w-100; */
+        top: 0;
+        left: 0;
+        animation: fadeInDown .5s;
+        -webkit-animation: fadeInDown .5s;
+        -moz-animation: fadeInDown .5s;
+        /* box-shadow: 0 0 10px rgba($color:$title-color, $alpha:.1); */
+        z-index: 999;
+}
 
 /* home section */
 
@@ -34,7 +45,7 @@
   padding-top: 6rem ;
 }
 .hero--txt{
-  font-size: 60px;
+  font-size: 65px;
   margin-top: 30px;
   color: #0d6efd;
 }
@@ -45,6 +56,14 @@
 }
 .hero--desc{
   color: #847a75;
+}
+.get-in-touch{
+  font-size: 18px !important;
+  transition: 0.9s ease;
+}
+.get-in-touch:hover{
+  transform: scaleZ(-1);
+
 }
 
 
@@ -62,19 +81,19 @@
   padding: 5rem 0;
   background: var(--bg-gray);
 }
-.head-txt{
-  /* font-size: 40px; */
-}
+
 .about--img{
   width: 100%;
 }
-
+.about--txt{
+  font-family: 'poppins';
+  color: #3f3c3a;
+}
 /* Services section */
 
 .services--sec{
-  /* background: var(--bg-color); */
+  background: var(--bg-color) !important;
   color: #fff;
-  /* margin: 5rem 0; */
   padding: 5rem 0;
 }
 .icon--div{
@@ -83,4 +102,12 @@
 }
 .service-body-main{
   color: #3f3c3a;
+}
+
+
+
+
+/* customer section */
+.customer-sec{
+  height: 80vh;
 }

@@ -12,7 +12,7 @@ const Home = () => {
             <p className="hero--sub-text">
               Unleashing Potential, Igniting Performance
             </p>
-            <p className="hero--desc">
+            <p className="hero--desc fs-5">
               Talent Forge Nigeria is a creative and forward-thinking HR
               consulting firm committed to transforming organizations and
               individuals in the dynamic landscape of the modern workplace. Our
@@ -20,7 +20,7 @@ const Home = () => {
               capital, specializing in recruitment, outsourcing, learning and
               development, and consulting services.
             </p>
-            <button className="get-in-touch btn btn-primary py-2">
+            <button className="get-in-touch mt-4 p-4 btn btn-primary py-2">
               Get in touch
             </button>
           </div>
