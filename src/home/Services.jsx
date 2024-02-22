@@ -14,7 +14,7 @@ const Services = () => {
 
         {/* services body */}
         <div className="row justify-content-around gap-5 container mt-5">
-          <div className="col-12 col-md-9 col-lg-3">
+          <div className="col-12 col-md-9 col-lg-4 col-xl-3">
             <div className="card shadow">
               <div className=" fs-5 service--card p-4 d-flex flex-column align-items-center justify-content-center">
                 <div className="service-body-head d-flex align-items-center gap-2 w-100">
@@ -33,7 +33,7 @@ const Services = () => {
               </div>
             </div>
           </div>
-          <div className="col-12 col-md-9 col-lg-3">
+          <div className="col-12 col-md-9 col-lg-4 col-xl-3">
             <div className="card shadow">
               <div className=" fs-5 service--card p-4 d-flex flex-column align-items-center justify-content-center">
                 <div className="service-body-head d-flex align-items-center gap-2 w-100">
@@ -52,7 +52,7 @@ const Services = () => {
               </div>
             </div>
           </div>
-          <div className="col-12 col-md-9 col-lg-3">
+          <div className="col-12 col-md-9 col-lg-4 col-xl-3">
             <div className="card shadow">
               <div className=" fs-5 service--card p-4 d-flex flex-column align-items-center justify-content-center">
                 <div className="service-body-head d-flex align-items-center gap-2 w-100">
