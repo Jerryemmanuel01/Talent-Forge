@@ -58,8 +58,8 @@
 /* about-section */
 
 .about-sec{
-  margin: 5rem 0;
-  padding: 3rem 0;
+  margin-top: 5rem;
+  padding: 5rem 0;
   background: var(--bg-gray);
 }
 .head-txt{
@@ -67,4 +67,20 @@
 }
 .about--img{
   width: 100%;
+}
+
+/* Services section */
+
+.services--sec{
+  /* background: var(--bg-color); */
+  color: #fff;
+  /* margin: 5rem 0; */
+  padding: 5rem 0;
+}
+.icon--div{
+  width: 50px;
+  height: 50px;
+}
+.service-body-main{
+  color: #3f3c3a;
 }
