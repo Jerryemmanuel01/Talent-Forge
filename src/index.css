@@ -122,4 +122,5 @@
 /* customer section */
 .customer-sec{
   height: 80vh;
+  background: var(--bg-gray);
 }
