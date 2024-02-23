@@ -15,27 +15,35 @@ const Customer = () => {
 
           {/* about text */}
           <div className="col-lg-6 col-12 fs-3 about--txt">
-            <div className="target d-flex">
-              <h3>
+            <div className="mb-3">
+              <h3 className="target d-flex align-items-center">
                 <FaDotCircle className="me-2 text-primary fs-5" />
                 Organizations of All Sizes
               </h3>
             </div>
-            <div className="target d-flex">
-              <FaDotCircle className="me-2 text-primary fs-5" />
-              <h3>Startups</h3>
+            <div className="mb-3">
+              <h3 className="target d-flex align-items-center">
+                <FaDotCircle className="me-2 text-primary fs-5" />
+                Startups
+              </h3>
             </div>
-            <div className="target d-flex">
-              <FaDotCircle className="me-2 text-primary fs-5" />
-              <h3>Individual Professionals</h3>
+            <div className="mb-3">
+              <h3 className="target d-flex align-items-center">
+                <FaDotCircle className="me-2 text-primary fs-5" />
+                Individual Professionals
+              </h3>
             </div>
-            <div className="target d-flex">
-              <FaDotCircle className="me-2 text-primary fs-5" />
-              <h3>Learning and Development Seekers</h3>
+            <div className="mb-3">
+              <h3 className="target d-flex align-items-center">
+                <FaDotCircle className="me-2 text-primary fs-5" />
+                Learning and Development Seekers
+              </h3>
             </div>
-            <div className="target d-flex">
-              <FaDotCircle className="me-2 text-primary fs-5" />
-              <h3>Companies Expanding Globally</h3>
+            <div className="mb-3">
+              <h3 className="target d-flex align-items-center">
+                <FaDotCircle className="me-2 text-primary fs-5" />
+                Companies Expanding Globally
+              </h3>
             </div>
           </div>
         </div>
