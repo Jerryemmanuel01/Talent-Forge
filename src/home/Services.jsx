@@ -17,7 +17,7 @@ const Services = () => {
           <div className="col-12 text-center text-md-start col-md-9 col-lg-4 col-xl-3">
             <div className="card shadow">
               <div className=" fs-5 service--card p-4 d-flex flex-column align-items-center justify-content-center">
-                <div className="service-body-head d-flex align-items-center justify-content-center justify-content-sm-start gap-2 w-100">
+                <div className="service-body-head d-flex align-items-center gap-2 w-100">
                   <div className="icon--div p-2 rounded-circle bg-primary d-flex justify-content-center align-items-center">
                     <BsPersonFill className="fs-1  text-light" />
                   </div>
@@ -36,7 +36,7 @@ const Services = () => {
           <div className="col-12 text-center text-md-start col-md-9 col-lg-4 col-xl-3">
             <div className="card shadow">
               <div className=" fs-5 service--card p-4 d-flex flex-column align-items-center justify-content-center">
-                <div className="service-body-head d-flex align-items-center gap-2 w-100 justify-content-center justify-content-sm-start">
+                <div className="service-body-head d-flex align-items-center gap-2 w-100 ">
                   <div className="icon--div p-2 rounded-circle bg-primary d-flex justify-content-center align-items-center">
                     <HiLightBulb className="fs-1  text-light" />
                   </div>
@@ -55,7 +55,7 @@ const Services = () => {
           <div className="col-12 text-center text-md-start col-md-9 col-lg-4 col-xl-3">
             <div className="card shadow">
               <div className=" fs-5 service--card p-4 d-flex flex-column align-items-center justify-content-center">
-                <div className="service-body-head d-flex align-items-center gap-2 w-100 justify-content-center justify-content-sm-start">
+                <div className="service-body-head d-flex align-items-center gap-2 w-100">
                   <div className="icon--div p-2 rounded-circle bg-primary d-flex justify-content-center align-items-center">
                     <LuBarChart4 className="fs-1  text-light" />
                   </div>

@@ -65,6 +65,7 @@
 }
 .hero--desc{
   color: #847a75;
+  text-align: justify
 }
 .get-in-touch{
   /* font-size: 18px !important; */
@@ -97,6 +98,7 @@
 .about--txt{
   font-family: 'poppins';
   color: #3f3c3a;
+  text-align: justify;
 }
 /* Services section */
 
@@ -111,6 +113,7 @@
 }
 .service-body-main{
   color: #3f3c3a;
+  text-align: justify;
 }
 
 /* Model section */
@@ -125,6 +128,7 @@
 }
 .sponsor-desc{
   color: #3f3c3a;
+
 }
 
 
