@@ -30,7 +30,7 @@ const Model = () => {
         breakpoints={{
           640: {
             slidesPerView: 1,
-            spaceBetween: 20,
+            spaceBetween: 90,
           },
           768: {
             slidesPerView: 2,

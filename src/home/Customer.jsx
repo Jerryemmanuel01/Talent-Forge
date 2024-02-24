@@ -6,7 +6,10 @@ import { FaDotCircle } from "react-icons/fa";
 const Customer = () => {
   return (
     <div className="customer-sec">
-      <div className="container">
+      <div className="container py-5">
+        <div className="head--sec d-flex justify-content-center shadow-sm">
+          <h1 className="fw-bold head-txt fs-1">OUR CUSTOMER</h1>
+        </div>
         <div className="row flex-md-row-reverse justify-content-center align-items-center mt-5 gap-5">
           {/* about image */}
           <div className="col-lg-5 col-12">
@@ -14,12 +17,12 @@ const Customer = () => {
           </div>
 
           {/* about text */}
-          <div className="col-lg-6 col-12 fs-3 about--txt">
+          <div className="col-lg-6 col-12 fs-3 fw-bold about--txt">
             <div className="mb-3">
-              <h3 className="target d-flex align-items-center">
+              <p className="target d-flex align-items-center">
                 <FaDotCircle className="me-2 text-primary fs-5" />
                 Organizations of All Sizes
-              </h3>
+              </p>
             </div>
             <div className="mb-3">
               <h3 className="target d-flex align-items-center">
@@ -41,7 +44,7 @@ const Customer = () => {
             </div>
             <div className="mb-3">
               <h3 className="target d-flex align-items-center">
-                <FaDotCircle className="me-2 text-primary fs-5" />
+                <FaDotCircle className="me-2 text-primary fs-5 h5 fs-sm-6" />
                 Companies Expanding Globally
               </h3>
             </div>
