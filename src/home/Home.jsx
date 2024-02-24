@@ -20,7 +20,7 @@ const Home = () => {
               capital, specializing in recruitment, outsourcing, learning and
               development, and consulting services.
             </p>
-            <button className="get-in-touch mt-4 p-4 btn btn-primary py-2">
+            <button className="get-in-touch mt-2 p-4 btn btn-primary py-2">
               Get in touch
             </button>
           </div>

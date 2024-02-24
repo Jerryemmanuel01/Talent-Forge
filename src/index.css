@@ -51,6 +51,7 @@
 
   @media only screen and (max-width: 640px) {
     font-size: 40px;
+    margin-top: 0px;
   }
 }
 .hero--sub-text{
@@ -66,7 +67,7 @@
   color: #847a75;
 }
 .get-in-touch{
-  font-size: 18px !important;
+  /* font-size: 18px !important; */
   transition: 0.9s ease;
 }
 .get-in-touch:hover{
@@ -78,7 +79,7 @@
 /* into section */
 
 .intro-icon-div{
-  height: 5rem;
+  height: 4rem;
   font-size: 50px;
 }
 

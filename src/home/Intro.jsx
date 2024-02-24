@@ -10,10 +10,10 @@ const Intro = () => {
       <div className="d-flex flex-column flex-wrap flex-md-row align-items-center justify-content-center gap-5 container">
         <div style={{ width: 300 }}>
           <div className="card shadow">
-            <div className=" fs-5 text-light pt-2 bg-primary d-flex flex-column align-items-center justify-content-center">
-              <p>Recruitment</p>
-              <p>&</p>
-              <p>Outsourcing</p>
+            <div className="py-3 text-light bg-primary d-flex flex-column align-items-center justify-content-center">
+              <h6>Recruitment</h6>
+              <h6>&</h6>
+              <h6>Outsourcing</h6>
             </div>
             <div className=" fs-5 intro-icon-div bg-white d-flex flex-column align-items-center justify-content-center">
               <BsPersonFill className="fs-1 text-primary" />
@@ -22,10 +22,10 @@ const Intro = () => {
         </div>
         <div style={{ width: 300 }}>
           <div className="card shadow col-md-12">
-            <div className=" fs-5 text-light pt-2 bg-primary d-flex flex-column align-items-center justify-content-center">
-              <p>Learning</p>
-              <p>&</p>
-              <p>Development</p>
+            <div className="py-3 text-light bg-primary d-flex flex-column align-items-center justify-content-center">
+              <h6>Learning</h6>
+              <h6>&</h6>
+              <h6>Development</h6>
             </div>
             <div className=" fs-5 intro-icon-div bg-white d-flex flex-column align-items-center justify-content-center">
               <HiLightBulb className="fs-1 text-primary" />
@@ -34,10 +34,10 @@ const Intro = () => {
         </div>
         <div style={{ width: 300 }}>
           <div className="card shadow">
-            <div className=" fs-5 text-light pt-2 bg-primary d-flex flex-column align-items-center justify-content-center">
-              <p>Consulting</p>
-              <p>&</p>
-              <p>Advisory</p>
+            <div className="py-3 text-light bg-primary d-flex flex-column align-items-center justify-content-center">
+              <h6>Consulting</h6>
+              <h6>&</h6>
+              <h6>Advisory</h6>
             </div>
             <div className=" fs-5 intro-icon-div bg-white d-flex flex-column align-items-center justify-content-center">
               <LuBarChart4 className="fs-1 text-primary" />
