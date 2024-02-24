@@ -132,6 +132,15 @@
   min-height: 70vh;
   background: var(--bg-gray);
 }
+.footer--sec{
+  background: #101920;
+  min-height: 50vh;
+}
+.footer--txt{
+  color:#c0c0c0;
+}
+
+
 
 @media only screen and (max-width: 640px) {
   .service-body-head h5 {

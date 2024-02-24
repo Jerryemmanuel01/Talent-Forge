@@ -1,3 +1,4 @@
+import Footer from './components/Footer'
 import NavBar from './components/NavBar'
 import About from './home/About'
 import Customer from './home/Customer'
@@ -16,6 +17,7 @@ function App() {
       <Services />
       <Model />
       <Customer />
+      <Footer />
     </>
   )
 }
