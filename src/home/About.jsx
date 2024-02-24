@@ -11,7 +11,7 @@ const About = () => {
 
         {/* About body */}
 
-        <div className="row justify-content-center align-items-center mt-5 gap-5">
+        <div className="d-flex flex-column flex-wrap flex-md-row justify-content-center align-items-center mt-5 gap-5">
           {/* about image */}
           <div className="col-lg-5 col-12">
             <img src={AboutImg} alt="" className="about--img card" />

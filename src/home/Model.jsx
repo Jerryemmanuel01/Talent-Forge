@@ -28,7 +28,7 @@ const Model = () => {
           disableOnInteraction: false,
         }}
         breakpoints={{
-          400: {
+          380: {
             slidesPerView: 1,
             spaceBetween: 90,
           },

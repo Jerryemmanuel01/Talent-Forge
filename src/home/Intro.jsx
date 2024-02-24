@@ -7,7 +7,7 @@ const Intro = () => {
   return (
     <div className="container my-5">
       {/* <div className="intro-head"><h2 className="head-txt"></h2></div> */}
-      <div className="row justify-content-center gap-5 container">
+      <div className="d-flex flex-column flex-wrap flex-md-row align-items-center justify-content-center gap-5 container">
         <div style={{ width: 300 }}>
           <div className="card shadow">
             <div className=" fs-5 text-light pt-2 bg-primary d-flex flex-column align-items-center justify-content-center">

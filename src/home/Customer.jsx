@@ -10,7 +10,7 @@ const Customer = () => {
         <div className="head--sec d-flex justify-content-center shadow-sm">
           <h1 className="fw-bold head-txt fs-1">OUR CUSTOMER</h1>
         </div>
-        <div className="row flex-md-row-reverse justify-content-center align-items-center mt-5 gap-5">
+        <div className="d-flex flex-column flex-wrap flex-md-row flex-md-row-reverse justify-content-center align-items-center mt-5 gap-5">
           {/* about image */}
           <div className="col-lg-5 col-12">
             <img src={AboutImg} alt="" className="about--img card" />

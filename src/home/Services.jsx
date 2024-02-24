@@ -6,14 +6,14 @@ import { LuBarChart4 } from "react-icons/lu";
 const Services = () => {
   return (
     <div className="services--sec">
-      <div className="container">
+      <div className="container-fluid">
         {/* services head */}
         <div className="head--sec d-flex justify-content-center shadow-sm">
           <h1 className="fw-bold head-txt fs-1">OUR SERVICES</h1>
         </div>
 
         {/* services body */}
-        <div className="row justify-content-around gap-5 container mt-5">
+        <div className="d-flex flex-column flex-wrap flex-md-row justify-content-center align-items-center gap-5 container mt-5">
           <div className="col-12 col-md-9 col-lg-4 col-xl-3">
             <div className="card shadow">
               <div className=" fs-5 service--card p-4 d-flex flex-column align-items-center justify-content-center">

@@ -5,14 +5,14 @@ const Home = () => {
   return (
     <div className="home--sec">
       <div className="container ">
-        <div className="row  home--row">
+        <div className="home--row px-2 d-flex flex-column flex-wrap flex-md-row justify-content-center align-items-center">
           {/* Hero text section */}
           <div className="col-lg-7 col-12">
             <h2 className="hero--txt fw-bold ">Talent Forge</h2>
             <p className="hero--sub-text">
               Unleashing Potential, Igniting Performance
             </p>
-            <p className="hero--desc fs-5">
+            <p className="hero--desc">
               Talent Forge Nigeria is a creative and forward-thinking HR
               consulting firm committed to transforming organizations and
               individuals in the dynamic landscape of the modern workplace. Our
