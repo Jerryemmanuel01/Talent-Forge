@@ -9,7 +9,7 @@ import { FaXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
   return (
-    <div className="footer--sec px-2 d-flex flex-column justify-content-around" id="contact">
+    <div className="footer--sec px-2 d-flex flex-column justify-content-around">
       <div className="footer--all container d-flex flex-column justify-content-around">
         <div className="py-5 gap-5 text-light d-flex flex-wrap justify-content-between">
           <div className="footer--name col-md-5 col-12">
@@ -29,7 +29,7 @@ const Footer = () => {
             <h4 className="fw-bold text-primary">Links</h4>
             <div className="footer--link">
               <a
-                href="#"
+                href="#home"
                 className="link-underline link-underline-opacity-0 text-light"
               >
                 Home
@@ -37,7 +37,7 @@ const Footer = () => {
             </div>
             <div className="footer--link">
               <a
-                href="#"
+                href="#about"
                 className="link-underline link-underline-opacity-0 text-light"
               >
                 About
@@ -45,7 +45,7 @@ const Footer = () => {
             </div>
             <div className="footer--link">
               <a
-                href="#"
+                href="#service"
                 className="link-underline link-underline-opacity-0 text-light"
               >
                 Our Service
@@ -53,7 +53,7 @@ const Footer = () => {
             </div>
             <div className="footer--link">
               <a
-                href="#"
+                href="#model"
                 className="link-underline link-underline-opacity-0 text-light"
               >
                 Model
@@ -61,7 +61,7 @@ const Footer = () => {
             </div>
             <div className="footer--link">
               <a
-                href="#"
+                href="#contact"
                 className="link-underline link-underline-opacity-0 text-light"
               >
                 Contact

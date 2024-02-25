@@ -5,7 +5,7 @@ import { FaDotCircle } from "react-icons/fa";
 
 const Customer = () => {
   return (
-    <div className="customer-sec">
+    <div className="customer-sec" id="contact">
       <div className="container py-5">
         <div className="head--sec d-flex justify-content-center shadow-sm">
           <h1 className="fw-bold head-txt fs-1">OUR CUSTOMER</h1>
@@ -36,9 +36,7 @@ const Customer = () => {
                   placeholder="Message"
                 ></textarea>
                 <button className="get-in-touch mt-2 p-4 btn btn-primary py-2">
-                  <span
-                    className="link-underline link-underline-opacity-0 text-light"
-                  >
+                  <span className="link-underline link-underline-opacity-0 text-light">
                     Get in touch
                   </span>
                 </button>
