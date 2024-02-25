@@ -1,9 +1,9 @@
 import React from "react";
-import HomeImg from "../assets/talent-forge-01.png"
+import HomeImg from "../assets/talent-forge-01.png";
 
 const Home = () => {
   return (
-    <div className="home--sec">
+    <div className="home--sec" id="home">
       <div className="container ">
         <div className="home--row px-2 d-flex flex-column flex-wrap flex-md-row justify-content-center align-items-center">
           {/* Hero text section */}
@@ -21,7 +21,12 @@ const Home = () => {
               development, and consulting services.
             </p>
             <button className="get-in-touch mt-2 p-4 btn btn-primary py-2">
-              Get in touch
+              <a
+                href="#contact"
+                className="link-underline link-underline-opacity-0 text-light"
+              >
+                Get in touch
+              </a>
             </button>
           </div>
 

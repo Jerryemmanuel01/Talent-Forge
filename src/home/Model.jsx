@@ -16,7 +16,7 @@ import { Autoplay } from "swiper/modules";
 
 const Model = () => {
   return (
-    <div className="container mt-5">
+    <div className="container mt-5" id="model">
       <div className="head--sec d-flex justify-content-center shadow-sm">
         <h1 className="fw-bold head-txt fs-1">BUSINESS MODEL</h1>
       </div>

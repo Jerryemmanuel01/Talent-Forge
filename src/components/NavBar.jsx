@@ -39,16 +39,16 @@ function NavBar() {
             <Nav.Link href="#home" className="fw-medium fs-6">
               Home
             </Nav.Link>
-            <Nav.Link href="#link" className="fw-medium fs-6">
+            <Nav.Link href="#about" className="fw-medium fs-6">
               About
             </Nav.Link>
-            <Nav.Link href="#link" className="fw-medium fs-6">
+            <Nav.Link href="#service" className="fw-medium fs-6">
               Our Services
             </Nav.Link>
-            <Nav.Link href="#link" className="fw-medium fs-6">
+            <Nav.Link href="#model" className="fw-medium fs-6">
               Model
             </Nav.Link>
-            <Nav.Link href="#link" className="fw-medium fs-6">
+            <Nav.Link href="#contact" className="fw-medium fs-6">
               Contact
             </Nav.Link>
           </Nav>

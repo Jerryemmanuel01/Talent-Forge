@@ -3,7 +3,7 @@ import AboutImg from "../assets/talent-forge02.jpg";
 
 const About = () => {
   return (
-    <div className="about-sec">
+    <div className="about-sec" id="about">
       <div className="container">
         <div className="head--sec d-flex justify-content-center shadow-sm">
           <h1 className="fw-bold head-txt fs-1">ABOUT</h1>

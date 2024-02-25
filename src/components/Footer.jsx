@@ -9,7 +9,7 @@ import { FaXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
   return (
-    <div className="footer--sec px-2 d-flex flex-column justify-content-around">
+    <div className="footer--sec px-2 d-flex flex-column justify-content-around" id="contact">
       <div className="footer--all container d-flex flex-column justify-content-around">
         <div className="py-5 gap-5 text-light d-flex flex-wrap justify-content-between">
           <div className="footer--name col-md-5 col-12">

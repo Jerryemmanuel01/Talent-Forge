@@ -132,6 +132,11 @@
   min-height: 70vh;
   background: var(--bg-gray);
 }
+.text--area{
+  resize: none !important;
+}
+
+/* footer sec */
 .footer--sec{
   background: #101920;
   min-height: 50vh;
